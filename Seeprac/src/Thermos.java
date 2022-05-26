@@ -25,10 +25,16 @@ void display_thermos() {
 
 }
 
+void Pour_Liquid() {
+	
+	System.out.println("Pouring :"+ Liquid);
+}
+
 public static void main (String args[]) {
 	Thermos t1 = new Thermos("TWARM", "Orange juice", 1);
 	t1.add_Liquid("Pineapple juice");
 	t1.display_thermos();
+	t1.Pour_Liquid();
 	
 }
 }
